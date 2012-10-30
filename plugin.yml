@@ -1,0 +1,14 @@
+name: Halloween
+main: edu.unca.nrodrigu.Demo.Demo
+version: 0.1
+author: Group
+description: Halloween plugin
+commands:
+  halloween:
+    description: halloween
+    usage: /<command>
+    permission: demo.halloween
+permissions:
+  demo.*:
+    description: permissions of all demo plugin commands
+    default: true
